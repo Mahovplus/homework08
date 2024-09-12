@@ -1,9 +1,6 @@
-programm = input( 'Введите три целых числа:')
-first = int(programm[0:4])
-second = int(programm[4:7])
-third = int(programm[8:12])
-set = first, second, third
-print(set)
+first = input('Введите первое число: ')
+second = input('Введите второе число: ')
+third = input('Введите третье число: ')
 if first == second == second == third:
     print(3)
 elif first == second:
